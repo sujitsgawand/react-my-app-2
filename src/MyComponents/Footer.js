@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export const Footer = () => {
-    return (
-        <div>
-            This is a footer.
-        </div>
-    )
-}
+  return (
+    <footer className="bg-dark text-light py-3">
+      <p className="text-center"> Copyright &copy; MytodosList.com </p>
+    </footer>
+  );
+};
